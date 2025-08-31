@@ -30,3 +30,4 @@ scoreboard players set @s spellcrafter.mana 5000
 scoreboard players set @s spellcrafter.cooldown 0
 
 function scarena:as_player/remove_non_wands
+function scarena:as_player/stats/save/init

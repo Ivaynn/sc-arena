@@ -12,6 +12,8 @@ attribute @s minecraft:max_health base set 20
 effect clear @s
 effect give @s minecraft:instant_health 1 100 true
 
+function scarena:as_player/stats/save/init
+
 
 # SpellCrafter
 scoreboard players set @s spellcrafter.inf_page 0
