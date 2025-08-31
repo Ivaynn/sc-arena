@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "r": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "scarena:as_player/events/right_click/trigger"
+    }
+}

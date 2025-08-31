@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "r": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "scarena:as_player/events/left_click/trigger"
+    }
+}

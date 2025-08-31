@@ -104,6 +104,7 @@ execute unless score queue.max_players scarena.main matches 1..9 run scoreboard 
 execute unless data storage scarena:queue structures run data modify storage scarena:queue structures set value []
 execute unless data storage scarena:queue rooms run data modify storage scarena:queue rooms set value []
 execute unless data storage scarena:stats raw run data modify storage scarena:stats raw set value {}
+execute unless data storage scarena:suggestions all run data modify storage scarena:suggestions all set value []
 
 
 # Teams
