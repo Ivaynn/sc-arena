@@ -21,7 +21,7 @@ effect give @s minecraft:instant_health 1 100 true
 
 
 # SpellCrafter
-scoreboard players set @s spellcrafter.inf_page 102
+execute unless score @s scarena.player.tutorial matches 1.. run scoreboard players set @s spellcrafter.inf_page 102
 tag @s add spellcrafter.caster
 tag @s remove spellcrafter.untargetable
 scoreboard players set @s spellcrafter.mana_reg 25

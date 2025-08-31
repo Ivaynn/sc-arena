@@ -19,4 +19,4 @@ schedule function scarena:structure/schedule 1t replace
 
 
 # Complete
-tellraw @a ["",{text:"> ",color:"dark_green",bold:true},{text:"The FFA arena is resetting...",color:"gray"}]
+tellraw @a ["",{text:"> ",color:"gold",bold:true},{text:"The FFA arena is resetting...",color:"gray"}]

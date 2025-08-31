@@ -57,6 +57,8 @@ scoreboard objectives add scarena.game.x dummy
 scoreboard objectives add scarena.game.z dummy
 scoreboard objectives add scarena.game.lives dummy
 
+scoreboard objectives add scarena.player.tutorial dummy
+
 scoreboard objectives add scarena.health dummy {text:"❤",color:"red"}
 scoreboard objectives modify scarena.health numberformat styled {color:"red"}
 scoreboard objectives setdisplay below_name scarena.health 
@@ -69,6 +71,7 @@ scoreboard objectives add surrender trigger
 scoreboard objectives add spectator trigger
 scoreboard objectives add stats trigger
 scoreboard objectives add ready trigger
+scoreboard objectives add tutorial trigger
 
 scoreboard objectives add scarena.math dummy
 scoreboard players set #n1 scarena.math -1
@@ -132,3 +135,4 @@ team modify game friendlyFire true
 
 # SpellCrafter options
 scoreboard players set trader_spawn spellcrafter.options 0
+scoreboard players set dummy_text spellcrafter.options 0

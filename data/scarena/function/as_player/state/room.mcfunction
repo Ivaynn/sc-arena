@@ -6,13 +6,14 @@ xp set @s 0 points
 xp set @s 1 levels
 
 
+execute if score @s scarena.player.tutorial matches 1.. run function scarena:rooms/tutorial/tick
 
 
 # Triggers
-scoreboard players enable @s arena
-scoreboard players enable @s queue
 scoreboard players enable @s spawn
-scoreboard players enable @s room
+execute unless score @s scarena.player.tutorial matches 1.. run scoreboard players enable @s arena
+execute unless score @s scarena.player.tutorial matches 1.. run scoreboard players enable @s queue
+execute unless score @s scarena.player.tutorial matches 1.. run scoreboard players enable @s room
 
 execute if score @s arena matches 1.. run function scarena:as_player/state/join/arena
 scoreboard players set @s arena 0

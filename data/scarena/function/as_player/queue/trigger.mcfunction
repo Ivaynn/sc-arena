@@ -5,6 +5,10 @@
 execute if score @s scarena.game.id matches 1.. run return 0
 
 
+# In tutorial -> ignore
+execute if score @s scarena.player.tutorial matches 1.. run return run tellraw @s ["",{text:"> ",color:"red",bold:true},{text:"You can't queue while you're in the tutorial!",color:"gray"}]
+
+
 # Case 2 -> always join
 execute if score @s queue matches 2 run return run function scarena:as_player/queue/join
 

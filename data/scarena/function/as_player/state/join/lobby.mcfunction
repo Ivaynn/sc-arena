@@ -3,6 +3,10 @@ scoreboard players set @s scarena.player.state 1
 function scarena:as_player/disable_triggers
 execute unless score @s scarena.game.id matches 1.. run scoreboard players set @s scarena.game.id 0
 scoreboard players set @s scarena.player.room_id 0
+
+execute if score @s scarena.player.tutorial matches 1.. run function scarena:rooms/tutorial/exit
+execute unless score @s scarena.player.tutorial matches -1 run scoreboard players set @s scarena.player.tutorial 0
+
 team join lobby @s
 
 
