@@ -13,7 +13,7 @@ team join lobby @s
 # Reset player
 advancement grant @s from spellcrafter:spells/root
 gamemode adventure @s[gamemode=!adventure]
-spawnpoint @s 0 -42 0 0
+spawnpoint @s 0 -42 0 0 0
 tp @s 0 -42 0 0 0
 xp set @s 0 points
 xp set @s 0 levels

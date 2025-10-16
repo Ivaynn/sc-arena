@@ -6,7 +6,7 @@ import re
 
 
 # Custom wand version - increment this if players should be asked to update their wands
-version = 5
+version = 6
 
 
 # Copy SpellCrafter into this datapack

@@ -7,7 +7,7 @@ team join arena @s
 
 # Reset player
 gamemode survival @s[gamemode=!survival]
-spawnpoint @s 0 -42 0 0
+spawnpoint @s 0 -42 0 0 0
 xp set @s 0 points
 xp set @s 0 levels
 attribute @s minecraft:max_health base set 40
