@@ -26,6 +26,7 @@ difficulty normal
 weather clear
 fill -2 -1 -2 2 3 2 minecraft:black_concrete hollow
 function scarena:lobby/load
+forceload add -30 -30 30 30
 
 
 # Scoreboards
